@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--  BEGIN HEADLINKS  -->
+<%- include ('pages/links/head_links') %> 
+<!--  END HEADLINKS  -->
+<body class="sidebar-noneoverflow bg-white">
+
+    <%- include ('pages/navs/main_header') %> 
+
+    <!--  BEGIN MAIN CONTAINER  -->
+    <div class="main-container" id="container">
+
+        <div class="overlay"></div>
+        <div class="search-overlay"></div>
+
+        <!--  BEGIN TOPBAR  -->
+        <%- include ('pages/navs/page_header') %> 
+        <!--  END TOPBAR  -->
+        
+        <!--  BEGIN CONTENT AREA  -->
+        <div id="content" class="main-content">
+            <div class="layout-px-spacing">
+
+                <!-- CONTENT AREA -->
+                <div class="row layout-top-spacing">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-12 layout-spacing">
+                        <!-- <div class="widget-content-area br-4"> -->
+                            <!-- <div class="widget-one"> -->
+                                <form class="form-inline justify-content-center ">
+                                    <div class="col-md-4 col-sm-12 mt-5">
+                                        <div class="input-group ">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">What</span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Job title, keywords, or company">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-12 mt-5">
+                                        <div class="input-group ">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">Where</span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="City, state, zip code, or “remote”">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary mt-5 btn-lg">Find Job</button>
+                                </form>
+                            <!-- </div> -->
+                        <!-- </div> -->
+                    </div>
+                </div>
+                <!-- CONTENT AREA -->
+
+            </div>
+            <%- include ('pages/navs/footer') %> 
+        </div>
+        <!--  END CONTENT AREA  -->
+
+    </div>
+    <!-- END MAIN CONTAINER -->
+
+    <%- include ('pages/links/foot_links') %> 
+</body>
+</html>

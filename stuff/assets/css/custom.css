@@ -1,0 +1,12 @@
+.section_two{
+    background: #F5F5F5;
+}
+
+.grid_border{
+    border:0.3px solid #eeecec;
+}
+
+.business_name{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
